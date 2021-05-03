@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Roll no:<input type="text" name="myRollno">
+        </div>
+        <br>
+        <div>
+            Email:<input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Phone No:<input type="number" name="myPhone">
+        </div>
+        <br>
+        <div>
+            Are You Eligible:<input type="checkbox" name="myCheck" checked>
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="myGender"> Female:<input type="radio" name="myGender"> Other:<input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset now">
+
+        </div>
+        <div>
+            <!-- This is used to label down the text -->
+            <label for="TEXT"> Write down your code:</label>
+            <br>
+            <textarea name="myText" cols="30" rows="10" id="TEXT"></textarea>
+        </div>
+        <!-- This is to create a new block which can select among the following -->
+        <div>
+            Car<select name="myCar">
+            <option value="indica">Indica</option>
+            <option value="swift">Swift</option></select>
+        </div>
+
+        <br>
+    </form>
+
+</body>
+
+</html>
